@@ -1,0 +1,11 @@
+D:\C# Project\PRN231_Final_Project\DataAccess_Layer\bin\Debug\net7.0\DataAccess_Layer.deps.json
+D:\C# Project\PRN231_Final_Project\DataAccess_Layer\bin\Debug\net7.0\DataAccess_Layer.dll
+D:\C# Project\PRN231_Final_Project\DataAccess_Layer\bin\Debug\net7.0\DataAccess_Layer.pdb
+D:\C# Project\PRN231_Final_Project\DataAccess_Layer\obj\Debug\net7.0\DataAccess_Layer.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# Project\PRN231_Final_Project\DataAccess_Layer\obj\Debug\net7.0\DataAccess_Layer.AssemblyInfoInputs.cache
+D:\C# Project\PRN231_Final_Project\DataAccess_Layer\obj\Debug\net7.0\DataAccess_Layer.AssemblyInfo.cs
+D:\C# Project\PRN231_Final_Project\DataAccess_Layer\obj\Debug\net7.0\DataAccess_Layer.csproj.CoreCompileInputs.cache
+D:\C# Project\PRN231_Final_Project\DataAccess_Layer\obj\Debug\net7.0\DataAccess_Layer.dll
+D:\C# Project\PRN231_Final_Project\DataAccess_Layer\obj\Debug\net7.0\refint\DataAccess_Layer.dll
+D:\C# Project\PRN231_Final_Project\DataAccess_Layer\obj\Debug\net7.0\DataAccess_Layer.pdb
+D:\C# Project\PRN231_Final_Project\DataAccess_Layer\obj\Debug\net7.0\ref\DataAccess_Layer.dll

@@ -1,0 +1,50 @@
+﻿@model BusinessObjects_Layer.ViewModel.ProductVM
+
+@{
+    ViewData["Title"] = Model.Product.Id > 0 ? "Update Product" : "Create Product";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="CreateUpdateConfirm" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Product.Id" />
+
+    <div class="form-group">
+        <label asp-for="Product.Name"></label>
+        <input asp-for="Product.Name" class="form-control" />
+        <span asp-validation-for="Product.Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Product.Description"></label>
+        <input asp-for="Product.Description" class="form-control" />
+        <span asp-validation-for="Product.Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Product.Price"></label>
+        <input asp-for="Product.Price" class="form-control" />
+        <span asp-validation-for="Product.Price" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Product.CategoryId"></label>
+        <input asp-for="Product.CategoryId" class="form-control" />
+        <span asp-validation-for="Product.CategoryId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Product.ImageURL">Upload Image</label>
+        @if (!string.IsNullOrEmpty(Model.Product.ImageURL))
+        {
+            <div>
+                <img src="@Model.Product.ImageURL" alt="Current Image" style="max-width: 200px; max-height: 200px;" />
+            </div>
+        }
+        <input type="file" asp-for="ImageFile" class="form-control-file" />
+        <span asp-validation-for="ImageFile" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

@@ -1,0 +1,14 @@
+D:\C# Project\PRN231_Final_Project\BusinessObjects_Layer\obj\Debug\net7.0\BusinessObjects_Layer.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# Project\PRN231_Final_Project\BusinessObjects_Layer\obj\Debug\net7.0\BusinessObjects_Layer.AssemblyInfoInputs.cache
+D:\C# Project\PRN231_Final_Project\BusinessObjects_Layer\obj\Debug\net7.0\BusinessObjects_Layer.AssemblyInfo.cs
+D:\C# Project\PRN231_Final_Project\BusinessObjects_Layer\obj\Debug\net7.0\BusinessObjects_Layer.csproj.CoreCompileInputs.cache
+D:\C# Project\PRN231_Final_Project\BusinessObjects_Layer\bin\Debug\net7.0\BusinessObjects_Layer.deps.json
+D:\C# Project\PRN231_Final_Project\BusinessObjects_Layer\bin\Debug\net7.0\BusinessObjects_Layer.runtimeconfig.json
+D:\C# Project\PRN231_Final_Project\BusinessObjects_Layer\bin\Debug\net7.0\BusinessObjects_Layer.dll
+D:\C# Project\PRN231_Final_Project\BusinessObjects_Layer\bin\Debug\net7.0\BusinessObjects_Layer.pdb
+D:\C# Project\PRN231_Final_Project\BusinessObjects_Layer\obj\Debug\net7.0\BusinessObjects_Layer.csproj.AssemblyReference.cache
+D:\C# Project\PRN231_Final_Project\BusinessObjects_Layer\obj\Debug\net7.0\BusinessObjects_Layer.dll
+D:\C# Project\PRN231_Final_Project\BusinessObjects_Layer\obj\Debug\net7.0\refint\BusinessObjects_Layer.dll
+D:\C# Project\PRN231_Final_Project\BusinessObjects_Layer\obj\Debug\net7.0\BusinessObjects_Layer.pdb
+D:\C# Project\PRN231_Final_Project\BusinessObjects_Layer\obj\Debug\net7.0\BusinessObjects_Layer.genruntimeconfig.cache
+D:\C# Project\PRN231_Final_Project\BusinessObjects_Layer\obj\Debug\net7.0\ref\BusinessObjects_Layer.dll

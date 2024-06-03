@@ -1,0 +1,43 @@
+﻿@model IEnumerable< BusinessObjects_Layer.ViewModel.ProductVM>
+
+<div class="container p-4">
+    <div class="row p-3">
+        <div class="col-6">
+            <h2 class="text-primary">List of Products</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a class="btn btn-primary" asp-action="CreateUpdate" asp-controller="Product">
+                <i class="bi bi-plus-circle"></i> Add Product
+            </a>
+        </div>
+    </div>
+</div>
+
+<table class="table table-bordered table-striped" style="width: 100%">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Category</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Product.Id</td>
+                <td>@item.Product.Name</td>
+                <td>@item.Product.Description</td>
+                <td>@item.Product.Price</td>
+                <td>@item.CategoryName</td> <!-- Display the CategoryName -->
+                <td role="group">
+                    <a asp-action="CreateUpdate" asp-route-id="@item.Product.Id"><i class="bi bi-pencil-square"></i> Edit</a>
+                    <a asp-action="Delete" asp-route-id="@item.Product.Id"><i class="bi bi-trash"></i> Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

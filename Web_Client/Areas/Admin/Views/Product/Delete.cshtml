@@ -1,0 +1,35 @@
+﻿@model Product
+
+@{
+    ViewData["Title"] = "Delete Product";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Delete" method="post">
+    <div class="border p-3 mt-4">
+        <div class="form-group">
+            <label asp-for="Name" class="control-label"></label>
+            <input asp-for="Name" class="form-control" disabled />
+        </div>
+        <div class="form-group">
+            <label asp-for="Description" class="control-label"></label>
+            <input asp-for="Description" class="form-control" disabled />
+        </div>
+        <div class="form-group">
+            <label asp-for="Price" class="control-label"></label>
+            <input asp-for="Price" class="form-control" disabled />
+        </div>
+        <div class="form-group">
+            <label asp-for="Category.Name" class="control-label"></label>
+            <input asp-for="Category.Name" class="form-control" disabled />
+        </div>
+        <input type="hidden" asp-for="Id" />
+        <div class="form-group">
+            <input type="submit" value="Delete" class="btn btn-danger" />
+        </div>
+    </div>
+</form>
+
+<a asp-action="Index">Back to List</a>

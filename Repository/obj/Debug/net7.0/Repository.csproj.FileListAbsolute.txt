@@ -1,0 +1,15 @@
+D:\C# Project\PRN231_Final_Project\Repository\bin\Debug\net7.0\Repository.deps.json
+D:\C# Project\PRN231_Final_Project\Repository\bin\Debug\net7.0\Repository.dll
+D:\C# Project\PRN231_Final_Project\Repository\bin\Debug\net7.0\Repository.pdb
+D:\C# Project\PRN231_Final_Project\Repository\bin\Debug\net7.0\BusinessObjects_Layer.dll
+D:\C# Project\PRN231_Final_Project\Repository\bin\Debug\net7.0\BusinessObjects_Layer.pdb
+D:\C# Project\PRN231_Final_Project\Repository\obj\Debug\net7.0\Repository.csproj.AssemblyReference.cache
+D:\C# Project\PRN231_Final_Project\Repository\obj\Debug\net7.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# Project\PRN231_Final_Project\Repository\obj\Debug\net7.0\Repository.AssemblyInfoInputs.cache
+D:\C# Project\PRN231_Final_Project\Repository\obj\Debug\net7.0\Repository.AssemblyInfo.cs
+D:\C# Project\PRN231_Final_Project\Repository\obj\Debug\net7.0\Repository.csproj.CoreCompileInputs.cache
+D:\C# Project\PRN231_Final_Project\Repository\obj\Debug\net7.0\Repository.csproj.CopyComplete
+D:\C# Project\PRN231_Final_Project\Repository\obj\Debug\net7.0\Repository.dll
+D:\C# Project\PRN231_Final_Project\Repository\obj\Debug\net7.0\refint\Repository.dll
+D:\C# Project\PRN231_Final_Project\Repository\obj\Debug\net7.0\Repository.pdb
+D:\C# Project\PRN231_Final_Project\Repository\obj\Debug\net7.0\ref\Repository.dll
